@@ -5,7 +5,7 @@
 #   include hub
 class hub(
   $ensure           = 'present',
-  $alias_hub_to_git = true,
+  $alias_hub_to_git = false,
   $protocol         = 'https',
 ) {
 
