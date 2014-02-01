@@ -6,7 +6,7 @@
 class hub(
   $ensure           = 'present',
   $alias_hub_to_git = false,
-  $protocol         = 'https',
+  $protocol         = 'git',
 ) {
 
   case $ensure {
